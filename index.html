@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <div>
+        <div class="border">
+            <div class="dis"> <input type="text" placeholder="0" ></div>
+            <div class="btn">
+                <div>
+                    <button class="ac" onclick="clean()">AC</button>
+                    <button class="bracket" onclick="root()">√</button>
+                    <button onclick="mod()"  class="per">%</button>
+                    <button  onclick="divide()" class="divide">÷</button>
+                </div>
+                <div><button onclick="seven()">7</button>
+                    <button onclick="eight()">8</button>
+                    <button onclick="nine()">9</button>
+                    <button  onclick="multi()" class="mul">X</button>
+                </div>
+                <div> <button onclick="four()">4</button>
+                    <button onclick="five()">5</button>
+                    <button onclick="six()">6</button>
+                    <button onclick="sub()"  class="minus">-</button>
+                </div>
+                <div><button onclick="one()">1</button>
+                    <button onclick="two()">2 </button>
+                    <button onclick="three()">3</button>
+                    <button onclick="add()"  class="add">+</button>
+                </div>
+                <div> <button onclick="zero()">0</button>
+                    <button onclick="dots()">.</button>
+                    <button onclick="del()">DEL</button>
+                    <button  onclick="equal()" class="equal">=</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!---->
+
+
+    <script src="cal.js"></script>
+
+</body>
+
+</html>
